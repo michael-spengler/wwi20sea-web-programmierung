@@ -64,6 +64,12 @@ Da Deno für viele eine neue RTE / Technologie ist, empfehle ich die folgenden M
 24. https://deno.land/x/vofarm  
 25. https://deno.land/x/coprime   
 
+## Recommended IDE
+[VS Code Insiders](https://code.visualstudio.com/docs/?dv=osx&build=insiders)
+
+## Eventuell hilfreiche Links
+https://www.w3schools.com/  
+https://www.typescriptlang.org/  
 
 ## Gruppengestaltung
 Issue pro Themenvorschlag aufmachen und jeder, der sich für das Thema interessiert soll diesen issue kommentieren.   

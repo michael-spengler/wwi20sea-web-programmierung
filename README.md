@@ -79,3 +79,12 @@ Ideale Gruppengröße 3 - 5 Leute
 ## Grober Überblick
 ![Screenshot 2022-02-17 at 16 08 03](https://user-images.githubusercontent.com/43786652/154510190-24fb925c-a8df-4779-a483-451ad28b355d.png)
 
+## Meilensteine der Web Programmierung
+### Web 1
+
+Statische HTML Seiten mit Links (Internet der frühen 90iger)
+### Web 2
+Wie Web 1 nur zusätzlich dynamisch v.A. Javascript 
+
+### Web 3
+Wie Web 2 nur zusätzlich dezentral (DAPPs...)

@@ -88,3 +88,7 @@ Wie Web 1 nur zusätzlich dynamisch v.A. Javascript
 
 ### Web 3
 Wie Web 2 nur zusätzlich dezentral (DAPPs...)
+
+## Get Going with Svelte using Snel
+https://deno.land/x/snel
+

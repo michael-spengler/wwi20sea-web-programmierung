@@ -32,6 +32,7 @@ Loose Coupling
 100% Testabdeckung - Tests als ausführbare Spezifikation 
 Wenn ihr keine 100% Testabdeckung habt, habt ihr entweder eine unvollständige Spezifikation oder unnötigen Code.
 
+## Tipps für einen schönen Pfad der Erkenntnis  
 Um sich die theoretischen Inhalte effizient anzueignen empfehle ich die Nutzung der [Fancy Flashcard App](https://github.com/fancy-flashcard/ffc/blob/master/README.md). Sie können [hier](https://github.com/fancy-flashcard/deck-collection) ihre eigenen Decks erstellen und per Pull Request hinzufügen. Diese können Sie dann mit dem entsprechenden Raw Link ([Beispiel](https://raw.githubusercontent.com/fancy-flashcard/deck-collection/main/wirtschaftsinformatik/Finanzbuchhaltung.json)) in der Fancy Flashcard App importieren. Die Fancy Flashcard App ist dann auch im offline- / Flugzeugmodus nutzbar.  
 
 Um sich die praktischen Inhalte effizient anzueignen empfehle ich "just do it" - soll heißen: ausprobieren, ausprobieren, ausprobieren :)   
@@ -61,7 +62,9 @@ Da Deno für viele eine neue RTE / Technologie ist, empfehle ich die folgenden M
 22. https://deno.land/x/log  
 23. https://deno.land/x/deno_moment    
 24. https://deno.land/x/vofarm  
-25. https://deno.land/x/coprime  
+25. https://deno.land/x/coprime   
+
+
 ## Gruppengestaltung
 Issue pro Themenvorschlag aufmachen und jeder, der sich für das Thema interessiert soll diesen issue kommentieren.   
 Ideale Gruppengröße 3 - 5 Leute  

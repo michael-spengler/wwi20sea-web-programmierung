@@ -12,6 +12,9 @@ Spengler steht für Troubleshooting via Telegram bereit --> vorab empfehle ich, 
 
 ## Bewertungskriterien
 
+### Contributions Tagebuch
+z.B. learnings.md + contributions.md   
+
 ### Saubere Dokumentation
 
 

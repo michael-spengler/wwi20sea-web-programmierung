@@ -39,4 +39,5 @@ Ideale Gruppengröße 3 - 5 Leute
 
 
 ## Grober Überblick
-![Screenshot 2022-02-17 at 16 06 10](https://user-images.githubusercontent.com/43786652/154509941-03a3e19d-7036-48e5-b9ba-968614f22e33.png)
+![Screenshot 2022-02-17 at 16 08 03](https://user-images.githubusercontent.com/43786652/154510190-24fb925c-a8df-4779-a483-451ad28b355d.png)
+

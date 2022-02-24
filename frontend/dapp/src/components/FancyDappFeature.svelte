@@ -19,7 +19,7 @@
 
   async function giveMeSomeTextFromTheBlockchain() {
     const smartContractAddressOfContractWithWhichWeWantToInteract =
-      "0x6e55699a6A9dD95C79b735A6f70E5A290f2966E0";
+      "0xf216cc042a115521b6299383bff2c68d40bd1fa3";
 
     const provider = new ethers.providers.Web3Provider(window.ethereum);
     // await provider.send("eth_requestAccounts", []);
@@ -32,7 +32,7 @@
     );
 
     const text =
-      await theRepresentationOfOurSmartContractInDenoRTE.giveMeSomeText();
+      await theRepresentationOfOurSmartContractInDenoRTE.getTextFromTheBlockChain();
 
     alert(
       `der text den wir von der blockchain gelesen haben lautet........: ${text}`

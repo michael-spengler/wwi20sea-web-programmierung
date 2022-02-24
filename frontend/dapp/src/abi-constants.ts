@@ -1,7 +1,7 @@
 export const abiOfOurSmartContract = [
     {
         "inputs": [],
-        "name": "giveMeSomeText",
+        "name": "getTextFromTheBlockChain",
         "outputs": [
             {
                 "internalType": "string",
@@ -10,6 +10,19 @@ export const abiOfOurSmartContract = [
             }
         ],
         "stateMutability": "pure",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "newText",
+                "type": "string"
+            }
+        ],
+        "name": "saveTextOnTheBlockChain",
+        "outputs": [],
+        "stateMutability": "nonpayable",
         "type": "function"
     }
 ]

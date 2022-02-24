@@ -1,18 +1,10 @@
 <script>
-  import Home from "@/components/Home.svelte";
-  import UserInput from "@/components/UserInput.svelte";
+  import FancyDappFeature from "@/components/FancyDappFeature.svelte";
   import { fade } from "svelte/transition";
-  import { Client } from "https://deno.land/x/mysql@v2.10.2/mod.ts";
-
-  let name = "";
 </script>
 
 <main transition:fade>
-  <Home {name} />
-
-  <p><br /></p>
-
-  <UserInput />
+  <FancyDappFeature />
 </main>
 
 <style>

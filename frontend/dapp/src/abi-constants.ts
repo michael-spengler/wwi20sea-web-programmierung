@@ -9,7 +9,7 @@ export const abiOfOurSmartContract = [
                 "type": "string"
             }
         ],
-        "stateMutability": "pure",
+        "stateMutability": "view",
         "type": "function"
     },
     {

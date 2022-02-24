@@ -3,6 +3,12 @@
   import { ethers } from "https://cdn.skypack.dev/ethers";
 
   let walletAddress = "";
+  let textToBeWrittenToTheBlockchain = "whatever";
+
+  const provider = new ethers.providers.Web3Provider(window.ethereum);
+  provider.send("eth_requestAccounts", []);
+
+  let theRepresentationOfOurSmartContractInDenoRTE;
 
   async function connectToMetamask() {
     if (typeof window.ethereum === "undefined") {
@@ -14,23 +20,31 @@
         method: "eth_requestAccounts",
       });
       walletAddress = accounts[0];
+
+      const smartContractAddressOfContractWithWhichWeWantToInteract =
+        "0x08bad8668eed1d3ac404164d68e602d7ced6c05d";
+
+      theRepresentationOfOurSmartContractInDenoRTE = new ethers.Contract(
+        smartContractAddressOfContractWithWhichWeWantToInteract,
+        abiOfOurSmartContract,
+        provider
+      );
     }
   }
 
-  async function giveMeSomeTextFromTheBlockchain() {
-    const smartContractAddressOfContractWithWhichWeWantToInteract =
-      "0xf216cc042a115521b6299383bff2c68d40bd1fa3";
+  async function writeSomeTextOntoTheBlockchain() {
+    const signer = await provider.getSigner();
 
-    const provider = new ethers.providers.Web3Provider(window.ethereum);
-    // await provider.send("eth_requestAccounts", []);
-    // const signer = provider.getSigner()
+    const theRepresentationOfOurSmartContractInDenoRTEWithSigner =
+      theRepresentationOfOurSmartContractInDenoRTE.connect(signer);
 
-    const theRepresentationOfOurSmartContractInDenoRTE = new ethers.Contract(
-      smartContractAddressOfContractWithWhichWeWantToInteract,
-      abiOfOurSmartContract,
-      provider
+    alert(`we write ${textToBeWrittenToTheBlockchain} to the blockchain`);
+    await theRepresentationOfOurSmartContractInDenoRTEWithSigner.saveTextOnTheBlockChain(
+      textToBeWrittenToTheBlockchain
     );
+  }
 
+  async function giveMeSomeTextFromTheBlockchain() {
     const text =
       await theRepresentationOfOurSmartContractInDenoRTE.getTextFromTheBlockChain();
 
@@ -53,6 +67,14 @@
   <p><br /></p>
   <button on:click={giveMeSomeTextFromTheBlockchain}>
     Give me some text from the Blockchain
+  </button>
+
+  <p><br /></p>
+  <input type="text" bind:value={textToBeWrittenToTheBlockchain} />
+  <p><br /></p>
+
+  <button on:click={writeSomeTextOntoTheBlockchain}>
+    Write Text To Blockchain
   </button>
 {/if}
 

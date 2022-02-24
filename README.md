@@ -92,3 +92,38 @@ Wie Web 2 nur zusätzlich dezentral (DAPPs...)
 ## Get Going with Svelte using Snel
 https://deno.land/x/snel
 
+## Architekturen
+
+### Monolithische Architekturen
+ups:  
+evtl. schnellere Entwicklung  
+
+downs: 
+Keine Individuelle Skalierbarkeit   
+Niedrige Resilienz des Gesamtsystems    
+Wenig technologische Freiheit bzgl. jedes einzelnen Microservices   
+
+
+### Microservices Architekturen
+ups:  
+Individuelle Skalierbarkeit   
+Resilienz des Gesamtsystems    
+Technologische Freiheit bzgl. jedes einzelnen Microservices   
+
+
+downs:  
+Komplexer Orchestrierungsaufwand  
+
+
+## Cloud Services
+### Infrastructure as a Service (IaaS)
+
+### Platform as a Service (PaaS) / Function as a Service (FaaS)  
+
+### Software as a Service (SaaS)
+
+
+## Infrastructure as Code
+Das Infrastruktursetup wird per Code definiert und kann z.B. bei beliebigen Infrastructure as a Service Anbietern inititialisiert werden.  
+Docker Compose etc. ...
+

@@ -108,8 +108,8 @@ Wenig technologische Freiheit bzgl. jedes einzelnen Microservices
 ups:  
 Individuelle Skalierbarkeit   
 Resilienz des Gesamtsystems    
-Technologische Freiheit bzgl. jedes einzelnen Microservices   
-
+Technologische Freiheit bzgl. jedes einzelnen Microservices    
+Flexibles Lifecycle Management der einzelnen Microservices - API Versionierung  
 
 downs:  
 Komplexer Orchestrierungsaufwand  

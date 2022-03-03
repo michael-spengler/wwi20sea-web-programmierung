@@ -127,3 +127,10 @@ Komplexer Orchestrierungsaufwand
 Das Infrastruktursetup wird per Code definiert und kann z.B. bei beliebigen Infrastructure as a Service Anbietern inititialisiert werden.  
 Docker Compose etc. ...
 
+## Deployment / Page Provisioning
+### Frontend (Page Provisioning)
+Option 1: Provide page via server https://github.com/michael-spengler/wwi20sea-web-programmierung/blob/main/backend/server.ts#L6-L10  
+Option 2: Provde page via GitHub Pages https://github.com/michael-spengler/wwi20sea-web-programmierung/settings/pages  
+
+### Backend
+order a server e.g. via https://hetzner.de, ...., install and use e.g. https://www.npmjs.com/package/pm2 to start e.g. a [Webserver / Process](https://github.com/michael-spengler/wwi20sea-web-programmierung/blob/main/backend/server.ts)  

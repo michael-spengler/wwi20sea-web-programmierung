@@ -1,0 +1,17 @@
+name: "Notification regarding New Pull Request via Telegram"
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  notifyViaTelegram:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: denolib/setup-deno@v2
+        with:
+         deno-version: v1.4.6
+      - run: deno run --allow-net https://deno.land/x/cicd/notify-via-telegram.ts ${{ secrets.TELEGRAM_BOT_TOKEN }} ${{ secrets.TELEGRAM_TARGET_CHAT_ID }} ${{ github.repository }} "Someone pushed to main / master."

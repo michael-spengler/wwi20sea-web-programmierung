@@ -134,3 +134,9 @@ Option 2: Provde page via GitHub Pages https://github.com/michael-spengler/wwi20
 
 ### Backend
 order a server e.g. via https://hetzner.de, ...., install and use e.g. https://www.npmjs.com/package/pm2 to start e.g. a [Webserver / Process](https://github.com/michael-spengler/wwi20sea-web-programmierung/blob/main/backend/server.ts)  
+
+## Performance Optimierung
+### Frontend
+Reduce Bundle Size & Test via https://pagespeed.web.dev/  
+
+### Backend

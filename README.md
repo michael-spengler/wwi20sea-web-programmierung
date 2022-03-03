@@ -151,6 +151,10 @@ Reduce Bundle Size & Test via https://pagespeed.web.dev/
 ### Backend
 
 
-## Monitoring
+## Monitoring (planned)
 Show Use Cases around https://dydx.exchange/ & https://www.npmjs.com/package/dydx_nodejs_connector + corresponding monitoring.  
+
+## XUnit Test Patterns (planned)
+[Test Double Patterns](http://xunitpatterns.com/Test%20Double.html)   
+[Outside In vs. Inside Out](http://xunitpatterns.com/Philosophy%20Of%20Test%20Automation.html)  
 

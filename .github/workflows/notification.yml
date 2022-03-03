@@ -1,4 +1,4 @@
-name: "Notification regarding New Pull Request via Telegram"
+name: "Notification via Telegram"
 
 on:
   push:

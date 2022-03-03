@@ -149,3 +149,8 @@ Continuous Integration, Continuous Deployment and other tasks can be orchestrate
 Reduce Bundle Size & Test via https://pagespeed.web.dev/  
 
 ### Backend
+
+
+## Monitoring
+Show Use Cases around https://dydx.exchange/ & https://www.npmjs.com/package/dydx_nodejs_connector + corresponding monitoring.  
+

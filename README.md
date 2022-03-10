@@ -154,13 +154,17 @@ Reduce Bundle Size & Test via https://pagespeed.web.dev/
 Company Specific  
 https://gitcoin.co/hackathons
 
-
-## Monitoring (planned)
-Show Use Cases around https://dydx.exchange/ & https://www.npmjs.com/package/dydx_nodejs_connector + corresponding monitoring.  
-
-## XUnit Test Patterns (planned)
+## XUnit Test Patterns
 [Test Double Patterns](http://xunitpatterns.com/Test%20Double.html)   
 [Outside In vs. Inside Out](http://xunitpatterns.com/Philosophy%20Of%20Test%20Automation.html)  
+
+Quick Defect Localization --> wo genau liegt der Fehler....  
+
+
+## Monitoring (planned)
+Ich nehme das Thema Monitoring mit auf weil der Trend zu DevOps Teams wahrscheinlich anhalten wird.  
+Show Use Cases around https://dydx.exchange/ & https://www.npmjs.com/package/dydx_nodejs_connector + corresponding monitoring.  
+
 
 
 

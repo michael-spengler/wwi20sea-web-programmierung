@@ -160,8 +160,12 @@ https://gitcoin.co/hackathons
 
 Quick Defect Localization --> wo genau liegt der Fehler....  
 
+## Web Harvesting
+
 
 ## Monitoring (planned)
+Notification via [Telegram Chatbot](https://deno.land/x/telegram_chatbot) - e.g. if [lower bollinger band was reached](https://deno.land/x/bollinger_bands).
+
 Ich nehme das Thema Monitoring mit auf weil der Trend zu DevOps Teams wahrscheinlich anhalten wird.  
 Show Use Cases around https://dydx.exchange/ & https://www.npmjs.com/package/dydx_nodejs_connector + corresponding monitoring.  
 

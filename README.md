@@ -161,6 +161,11 @@ https://gitcoin.co/hackathons
 Quick Defect Localization --> wo genau liegt der Fehler....  
 
 ## Web Harvesting
+Chicken & Egg Problem --> initial daten in meine web app bekommen   
+Deep Learning braucht Daten zum trainieren / optimieren der modelle  
+.... 
+
+... leveraging testframeworks like https://codecept.io/basics/#architecture.
 
 
 ## Monitoring (planned)

@@ -26,14 +26,14 @@ Loose Coupling
 
 
 ### Korrekte Funktion
-
+Funtional Correctness Tests
 
 ### Goodies
 100% Testabdeckung - Tests als ausführbare Spezifikation 
 Wenn ihr keine 100% Testabdeckung habt, habt ihr entweder eine unvollständige Spezifikation oder unnötigen Code.
 
 ### Open Source Module veröffentlicht / optimiert
-
+Lizenzen (GNU GPL v3 / MIT / Apache ... )   
 
 ### Zwischenpräsentationen
 Ihr könnt jederzeit einen "so far" Punktestand von mir erhalten, indem Ihr mir Eure bisherigen Arbeitsergebnisse zeigt. 
@@ -87,13 +87,13 @@ Ideale Gruppengröße 3 - 5 Leute
 
 ## Meilensteine der Web Programmierung
 ### Web 1
+Statische HTML Seiten mit Links (Internet der frühen 90iger)  
 
-Statische HTML Seiten mit Links (Internet der frühen 90iger)
 ### Web 2
-Wie Web 1 nur zusätzlich dynamisch v.A. Javascript 
+Wie Web 1 nur zusätzlich dynamisch v.A. Javascript  
 
 ### Web 3
-Wie Web 2 nur zusätzlich dezentral (DAPPs...)
+Wie Web 2 nur zusätzlich dezentral (DAPPs...)  
 
 ## Get Going with Svelte using Snel
 https://deno.land/x/snel
@@ -123,11 +123,13 @@ Komplexer Orchestrierungsaufwand
 
 ## Cloud Services
 ### Infrastructure as a Service (IaaS)
+https://hetzner.de 
 
 ### Platform as a Service (PaaS) / Function as a Service (FaaS)  
+Google Cloud Platform, AWS, ... 
 
 ### Software as a Service (SaaS)
-
+SAP 
 
 ## Infrastructure as Code
 Das Infrastruktursetup wird per Code definiert und kann z.B. bei beliebigen Infrastructure as a Service Anbietern inititialisiert werden.  
@@ -166,6 +168,10 @@ Deep Learning braucht Daten zum trainieren / optimieren der modelle
 .... 
 
 ... leveraging testframeworks like https://codecept.io/basics/#architecture.
+
+## Synergies Web Development & Deep Learning
+see https://www.kaggle.com/ & Web Harvesting
+
 
 
 ## Monitoring (planned)

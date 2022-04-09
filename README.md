@@ -5,19 +5,18 @@
 1. Viele Open Source Module  
 2. Gruppenarbeiten i.S.v. Web Apps / Chatbots 
 
-## Grober Überblick
-![Screenshot 2022-02-17 at 16 08 03](https://user-images.githubusercontent.com/43786652/154510190-24fb925c-a8df-4779-a483-451ad28b355d.png)
-
 ## Meilensteine der Web Programmierung
-### Web 1
+### Web 1 (static web)
 Statische HTML Seiten mit Links (Internet der frühen 90iger)  
 
-### Web 2
+### Web 2 (dynamic web)
 Wie Web 1 nur zusätzlich dynamisch v.A. Javascript  
 
-### Web 3
+### Web 3 (distributed web)
 Wie Web 2 nur zusätzlich dezentral (DAPPs...)  
 
+## Grober Überblick
+![Screenshot 2022-02-17 at 16 08 03](https://user-images.githubusercontent.com/43786652/154510190-24fb925c-a8df-4779-a483-451ad28b355d.png)
 
 ## Vorlesungsgestaltung
 Feedback geben  
@@ -31,13 +30,11 @@ z.B. learnings.md + contributions.md
 
 ### Saubere Dokumentation
 
-
 ### Codequalität
 Separation of Concerns (kein Spaghetticode)   
 Sprechende Variablen- & Methodennamen   
 High Cohesion   
 Loose Coupling  
-
 
 ### Korrekte Funktion
 Funtional Correctness Tests

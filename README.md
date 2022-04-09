@@ -10,7 +10,7 @@
 Statische HTML Seiten mit Links (Internet der frühen 90iger)  
 
 ### Web 2 (dynamic web)
-Wie Web 1 nur zusätzlich dynamisch v.A. Javascript  
+Wie Web 1 nur zusätzlich dynamisch v.A. durch Javascript  
 
 ### Web 3 (distributed web)
 Wie Web 2 nur zusätzlich dezentral (DAPPs...)  

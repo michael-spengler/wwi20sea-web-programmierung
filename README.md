@@ -15,7 +15,7 @@ Wie Web 1 nur zusätzlich dynamisch v.A. Javascript
 ### Web 3 (distributed web)
 Wie Web 2 nur zusätzlich dezentral (DAPPs...)  
 
-## Grober Überblick
+## Brainstorming Ergebnis vom Anfang der Vorlesungsreihe
 ![Screenshot 2022-02-17 at 16 08 03](https://user-images.githubusercontent.com/43786652/154510190-24fb925c-a8df-4779-a483-451ad28b355d.png)
 
 ## Vorlesungsgestaltung
